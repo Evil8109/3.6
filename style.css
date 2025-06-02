@@ -1,0 +1,56 @@
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: burlywood;
+}
+
+
+.bir{
+    position: relative;
+    top: 100px;
+}
+
+.ikki{
+    position: absolute;
+    top: 10px;
+    right: 670px;
+}
+
+.text{
+    margin-top: 150px;
+    text-align: center;
+}
+
+button{
+    background-color: aquamarine;
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+}
+
+.cards img{
+transition: 0.4s linear;
+}
+
+.cards img:hover{
+    transform: scale(1.3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
